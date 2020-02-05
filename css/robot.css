@@ -14,24 +14,53 @@
    width: 43px;
    height: 175px;
    z-index: 25;
+   top: 20px;
+   left: 70px;
    background-color: black;
    border-radius: 21.5px;
    transform: rotate(-136deg); 
 }
 
 .head {
-    
+    position: absolute;
+    width: 180px;
+    height: 190px;
+    z-index: 100;
+    top: -95px;
+    left: 50px;
+    border-radius: 50%;
+    background-color: 1px solid #333333;
+    background: rgb(229,229,229);
+    background: linear-gradient(90deg, rgba(229,229,229,1) 0%,
+               rgba(255,255,255,1) 45%,
+               rgba(229,229,229,1) 100%);
 }
 
-/*.arm__right {
+.body {
     position: absolute;
-    width: 43px;
+    width: 180px;
+    height: 180px;
+    z-index: 110;
+    top: -20px;
+    left: 50px;
+    border-radius: 20px;
+    background-color: 1px solid #d3d3d3;
+    background: rgb(229,229,229);
+    background: linear-gradient(90deg, rgba(229,229,229,1) 0%,
+               rgba(255,255,255,1) 45%,
+               rgba(229,229,229,1) 100%);
+}
+.arm__right {
+    position: absolute;
+    width: 51px;
     height: 175px;
     z-index: 25;
+    left: 110px;
+    top: 30px;
     background-color: black;
     border-radius: 21.5px;
-    transform: rotate(160deg); 
- }*/
+    transform: rotate(-59deg); 
+ }
 
 
 /*
