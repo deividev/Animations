@@ -1,0 +1,37 @@
+
+
+
+.floor {
+    position: relative;
+    height: 50%;
+    width:  100%;
+    z-index: 5;
+    background: rgb(255,181,0);
+    background: linear-gradient( rgba(255,181,0,1) 0%, rgba(255,229,0,1) 45%, rgba(255,229,0,1) 100%);
+    border-top:1px solid;
+}
+
+.piramid__small  {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 700px;
+    top: -10px;
+    z-index: 10;
+    border-style: solid;
+    border-width: 0 53.5px 24px 53.5px;
+    border-color: transparent transparent #e8a200 transparent;
+}
+
+.piramid__big  {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 534px;
+    top: -10px;
+    z-index: 10;
+    border-style: solid;
+    border-width: 0 82px 84px 82px;
+    border-color: transparent transparent #e8a200 transparent;
+}
+
